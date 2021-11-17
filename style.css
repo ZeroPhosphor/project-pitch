@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+html{
+
+}
+
+nav{
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #40403e
+}
+
+a{
+    float: right;
+    padding: 18px 10px;
+    font-family: FreeMono, monospace;
+    font-size: 18px;
+}
+
+
+h1{
+    font-size: 26px;
+    font-family: Lucida Bright, serif;
+    position: absolute;
+    top: 10px;
+    color: #fff8f1;
+    padding: 3px 10px;
+}
+
+
+@media screen and (min-device-width: 500px) {
+    .p{
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+.splash{
+    font-style: italic;
+    top: 80px;
+}
+
+.footer{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #ff469c;
+
+}
+
+p{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-family: Lucida Console, monospace;
+    font-size: 20px;
+}
+
+.one{
+    font-size: 20px;
+    top: 180px;
+    left: 4px;
+    padding: 50px 340px;
+}
+
+.two{
+    font-size: 22px;
+    padding: 60px 300px;
+    top: 170px;
+}
+
+.three{
+    position: relative;
+    top: 300px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: Copperplate Gothic Bold, serif;
+    font-style: italic;
+}
